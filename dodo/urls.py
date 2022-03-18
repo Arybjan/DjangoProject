@@ -22,4 +22,6 @@ urlpatterns = [
     path('admin', admin.site.urls),
     path('list-pizzas', views.list_of_pizzas),
     path('create-pizzas', views.create_pizza),
+    path('list-pizzas-size_type', views.list_of_dish_size_type),
+    path('create-pizzas-size-type', views.create_pizza_size_type),
 ]
