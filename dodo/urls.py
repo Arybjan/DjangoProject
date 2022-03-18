@@ -21,4 +21,5 @@ from dishes import views
 urlpatterns = [
     path('admin', admin.site.urls),
     path('list-pizzas', views.list_of_pizzas),
+    path('create-pizzas', views.create_pizza),
 ]
