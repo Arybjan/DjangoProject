@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from dishes import views
 
 
 urlpatterns = [
     path('admin', admin.site.urls),
+    path('list-pizzas', views.list_of_pizzas),
 ]
