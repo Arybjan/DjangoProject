@@ -23,6 +23,7 @@ urlpatterns = [
     path('list-pizzas', views.list_of_pizzas),
     path('create-pizzas', views.create_pizza),
     path('list-pizzas-size_type', views.list_of_dish_size_type),
+    path('create-pizzas-size_type', views.create_pizza_size_type),
     path('create-pizzas-dish_size', views.create_dish_size),
     path('list-dish_size', views.list_of_dish_size),
 ]
